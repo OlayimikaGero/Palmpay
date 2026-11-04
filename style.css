@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: "Outfit", sans-serif; 
     color: #111111;
     background: #ffffff;
 }
@@ -43,7 +43,7 @@ a {
     align-items: center;
     gap: 7px;
     height: 30px;
-
+    margin-top: 30px;
 }
 
 
@@ -132,7 +132,6 @@ a {
     width: 100%;
     max-width: 1230px;
     height: 576px;
-
     margin: 0 auto;
 
     display: flex;
@@ -283,11 +282,6 @@ a {
 }
 
 
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-}
 
 
 
@@ -887,7 +881,7 @@ body {
     color: #4b008f;
 }
 
-/* Main heading */
+
 .safe-space h1 {
     text-align: center;
     font-size: 48px;
@@ -896,7 +890,7 @@ body {
     text-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Licence section */
+
 .licences {
     display: flex;
     justify-content: center;
@@ -923,7 +917,7 @@ body {
     object-fit: contain;
 }
 
-/* Feature section */
+
 .featuress {
     width: 100%;
     max-width: 1180px;
@@ -968,7 +962,7 @@ body {
     overflow: hidden;
 }
 
-/* Main heading */
+
 
 .reviews-section h1 {
     text-align: center;
@@ -978,7 +972,7 @@ body {
     margin-bottom: 26px;
 }
 
-/* Description */
+
 
 .subtitle {
     text-align: center;
@@ -989,7 +983,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* Review card */
+
 
 .review-card {
     width: 441px;
@@ -1000,7 +994,7 @@ body {
     padding: 40px;
 }
 
-/* Profile */
+
 
 .profile {
     display: flex;
@@ -1022,7 +1016,7 @@ body {
     font-size: 16px;
 }
 
-/* Rating */
+
 
 .rating {
     display: flex;
@@ -1040,7 +1034,7 @@ body {
     font-size: 14px;
 }
 
-/* Review text */
+
 
 .review-text {
     color: #111;
@@ -1049,7 +1043,7 @@ body {
     margin-top: 17px;
 }
 
-/* Download buttons */
+
 
 .download-buttons {
     display: flex;
@@ -1135,14 +1129,14 @@ body {
 
 
 .download-footer {
-  background: url(/images/imgi_38_footerBg.0ehbqz15_4v0l.png) purple;
-
+  background: url(/images/imgi_38_footerBg.0ehbqz15_4v0l.png) #5F34B1;
+  width: 100%;
   min-height: 120px;
   padding: 25px 20px;
-
+  background-size: cover;
   color: white;
   font-family: Arial, sans-serif;
-
+  background-position: right;
   position: relative;
   overflow: hidden;
 }
@@ -1151,7 +1145,7 @@ body {
 
 
 
-/* Main Container */
+
 .download-container {
   max-width: 1140px;
   margin: auto;
@@ -1165,7 +1159,7 @@ body {
   
 }
 
-/* Heading */
+
 .download-container h2 {
   font-size: 34px;
   font-weight: 600;
@@ -1177,7 +1171,7 @@ body {
   font-weight: 800;
 }
 
-/* App Buttons */
+
 .app-buttons {
   display: flex;
   gap: 12px;
@@ -1198,57 +1192,12 @@ body {
 
 
 
+ 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
 .footer {
   background-color: #1c1c1c;
   color: #ffffff;
@@ -1256,7 +1205,7 @@ body {
   padding-top: 40px;
 }
 
-/* Main Footer Container */
+
 .footer-container {
   max-width: 1200px;
   margin: auto;
@@ -1267,14 +1216,14 @@ body {
   gap: 35px;
 }
 
-/* Logo */
+
 .logo {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-/* Regulatory Logos */
+
 .regulatory-logos {
   display: flex;
   flex-direction: column;
@@ -1298,7 +1247,7 @@ body {
   object-fit: contain;
 }
 
-/* Footer Columns */
+
 .footer-column h3 {
   font-size: 20px;
   margin-bottom: 22px;
@@ -1317,7 +1266,7 @@ body {
   color: #bbbbbb;
 }
 
-/* Bottom Section */
+
 .footer-bottom {
   max-width: 1200px;
   margin: 55px auto 0;
@@ -1333,7 +1282,7 @@ body {
   color: #ffffff;
 }
 
-/* Social Icons */
+
 .social-icons {
   display: flex;
   gap: 16px;
@@ -1345,7 +1294,7 @@ body {
 }
 
 
-/* Disclaimer */
+
 .footer-disclaimer {
   border-top: 1px solid #333333;
   padding: 24px 20px;
